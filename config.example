@@ -1,0 +1,13 @@
+# Copy to config.local on your LOCAL machine:
+#   cp config.example config.local
+#
+# Remote SSH target — copy host/port from your cloud console (e.g. AutoDL "SSH登录").
+REMOTE_HOST=region-xxx.autodl.com
+REMOTE_PORT=42151
+REMOTE_USER=root
+
+# Local proxy client (Clash / Surge mixed-port, default 7890)
+LOCAL_PROXY_PORT=7890
+
+# Port exposed on the remote host (usually same as LOCAL_PROXY_PORT)
+REMOTE_PROXY_PORT=7890
